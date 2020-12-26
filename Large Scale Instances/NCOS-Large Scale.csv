@@ -1,0 +1,9 @@
+IBFS Method,,"Out of 640 Instances,Number of times the Solution Yileded wrt Loss of Optimality of ",,,,
+,,0%,0.50%,1%,2%,3%
+Proposed New IBFS Methods,,,,,,
+MSVM-1-TCM,,466,552,563,576,584
+MSVM1-TOCM,,466,552,563,576,585
+MSVM2-TCM,,464,536,557,565,569
+MSVM2-TOCM,,464,537,558,565,569
+MSVM3-TCM,,465,537,557,564,568
+MSVM3-TOCM,,465,537,557,563,569
