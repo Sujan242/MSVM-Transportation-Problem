@@ -4,9 +4,11 @@ data=pd.read_excel('MSV-Results.xlsx')
 import scipy.stats as ss
 ol=[]
 
-for i in range(1,641):
+for i in range(1,1601):
 	# print(data.iloc[i,2:].values.tolist())
-	l= data.iloc[i,1:-1].values.tolist()
+	l= data.iloc[i,1:17].values.tolist()
+	# print(l)
+	# exit()
 	print(len(l))
 	# print(l)
 	# exit()
@@ -20,7 +22,7 @@ for i in range(1,641):
 # print(ol)
 print(len(ol))
 
-exit()
+# exit()
 
 import csv
 from itertools import zip_longest

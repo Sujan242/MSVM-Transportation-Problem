@@ -1,7 +1,7 @@
 import pandas as pd 
 data=pd.read_excel('MSV-Results.xlsx',header=None)
 
-num=[[0 for _ in range(6)] for _ in range(5)]
+num=[[0 for _ in range(18)] for _ in range(5)]
 
 ls=[[],[]]
 for i in range(2,145):
@@ -11,7 +11,7 @@ for i in range(2,145):
 	# l = [:-1]
 	optimal = l[len(l)-1]
 	# exit()
-	for lcv in range(1, 7):
+	for lcv in range(1, 15):
 		v= (l[lcv] - optimal)/optimal
 		v*=100
 		# if m==2 or m==3:

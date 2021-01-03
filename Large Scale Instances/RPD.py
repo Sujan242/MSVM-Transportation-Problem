@@ -10,9 +10,9 @@ ol=[]
 
 for i in range(1,641):
 
-	l= data.iloc[i,1:7].values.tolist()
+	l= data.iloc[i,1:19].values.tolist()
 
-	op = int(data.iloc[i,7])
+	op = int(data.iloc[i,19])
 	# print(data.iloc[i,34])
 	# print(l)
 	# print(op)
